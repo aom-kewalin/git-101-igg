@@ -10,8 +10,8 @@ for(let i = 1; i <= 20; i++){
 let result1 = [-1,2,3,56,6,-93,0,4].map(el => el *2)
 console.log(result1)
 //4
-let result2 = [-1,2,3,56,6,-93,0,4].map(el => el%2 ===0)
-console.log(result2 % 2== 0)
+let result2 = [-1,2,3,56,6,-93,0,4].filter(el => el/2 >=0)
+console.log(result2)
 
 // //1
 // const data = []
